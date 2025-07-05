@@ -3,6 +3,13 @@ import { OrbitingCircles } from "@/components/magicui/orbiting-circles";
 export default function Home() {
   return (
     <div className="relative flex min-h-screen w-full flex-col items-center justify-center overflow-hidden">
+      <div className="mb-8">
+         <h1 className="text-4xl font-bold tracking-tighter md:text-5xl lg:text-8xl">
+          <TypingAnimation>
+          Open Source LLM  Inference Providers
+          </TypingAnimation>
+        </h1>
+         </div>
       <OrbitingCircles iconSize={200} radius={300}>
         {/* Custom base64 icon */}
         <a href="https://cloud.sambanova.ai/apis" target="_blank" rel="noopener noreferrer" className="transition-transform hover:scale-110"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7x87rpQm4VoZauhUlR9tsGmW8cyjYnuKTww&s" alt="custom icon" width={82} height={82} /> </a>
