@@ -1,6 +1,6 @@
 import { OrbitingCircles } from "@/components/magicui/orbiting-circles";
-import { TypingAnimation } from "@/components/magicui/typing-animation";
-import { AuroraText } from "@/components/magicui/aurora-text";
+
+
 
 export default function Home() {
   return (
