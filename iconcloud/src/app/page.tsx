@@ -6,13 +6,7 @@ export default function Home() {
   return (
     
     <div className="relative flex min-h-screen w-full flex-col items-center justify-center overflow-hidden">
-      <div className="mb-8">
-         <h1 className="text-4xl font-bold tracking-tighter md:text-5xl lg:text-8xl">
-          <TypingAnimation>
-          Open Source LLM  Inference Providers
-          </TypingAnimation>
-        </h1>
-         </div>
+  
   
       <OrbitingCircles iconSize={200} radius={300}>
         {/* Custom base64 icon */}
